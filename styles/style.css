@@ -1,9 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .page {
   width: 1100px;
   height: 3028px;
   font-family: 'Raleway-Regular', sans-serif;
-  box-sizing: border-box;
-
 }
 
 address,
@@ -17,16 +21,12 @@ em {
   height: 293px;
   padding: 0 50px;
   align-items: start;
-
-
-
-
 }
 
 .header__links-list {
   display: flex;
   grid-column: 1;
-  gap: 32px;
+  gap: 34px;
   list-style-type: circle;
   font-size: 18px;
   width: 391px;
@@ -101,7 +101,6 @@ em {
   height: 450px;
   top: 134px;
   left: 50px;
-
   z-index: 2;
   margin: 0;
   display: grid;
@@ -169,7 +168,7 @@ em {
   min-width: 637px;
   padding-left: 10px;
   font-size: 22px;
-  word-spacing: 18px;
+  word-spacing: 19px;
   color: white;
   align-self: center;
 
@@ -189,9 +188,9 @@ em {
 .lots {
   position: relative;
   min-height: 723px;
-  margin: 0 auto 155px;
-  width: 1100px;
-  padding: 0 25px;
+   width: 1100px;
+  padding: 0 25px; 
+  margin: 0 auto ;
   box-sizing: border-box;
 
 }
@@ -200,8 +199,8 @@ em {
   text-transform: uppercase;
   width: 121px;
   height: 47px;
-  margin-bottom: 30px;
-  margin-left: 35px;
+  margin-bottom: 27px;
+  margin-left: 40px;
   font-weight: 700;
   font-size: 40px;
   font-family: 'Raleway-Bold', sans-serif;
@@ -210,7 +209,7 @@ em {
 .card-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 23px;
+  gap: 24px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -265,7 +264,8 @@ em {
   z-index: 2;
   color: white;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 4px;
+  margin-left:  2px;
 }
 
 .card__text {
@@ -298,8 +298,8 @@ em {
 
 .lots__look-more-link {
   display: block;
-  margin-top: 28px;
-  margin-left: 38px;
+  margin-top: 31px;
+  margin-left: 39px;
   font-weight: 400;
   font-size: 20px;
 }
@@ -328,7 +328,7 @@ em {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 31px;
+  margin-top: 35px;
   margin-left: 20px;
 }
 
@@ -380,6 +380,7 @@ em {
   align-items: flex-start;
   max-width: 260px; 
   white-space: pre-wrap;
+  
 }
 
 .footer__menu {
@@ -402,7 +403,6 @@ em {
   list-style-type: none;
   display: flex;
   gap: 48px;
-  display: flex;
   justify-content: flex-end;
   padding-top: 0;
 }
