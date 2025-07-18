@@ -231,7 +231,6 @@ em {
 
 .card {
   position: relative;
-  height: 100%;
   padding: 45px 40px;
   display: flex;
   flex-direction: column;
@@ -380,7 +379,6 @@ em {
   align-items: flex-start;
   max-width: 260px; 
   white-space: pre-wrap;
-  
 }
 
 .footer__menu {
