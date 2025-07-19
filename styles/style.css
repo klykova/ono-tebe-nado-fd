@@ -348,6 +348,7 @@ em {
   align-items: flex-start;
   max-width: 260px;
   white-space: pre-wrap;
+  max-width: 240px;
 }
 
 .footer__menu {
